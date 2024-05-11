@@ -1,0 +1,14 @@
+server:
+  port: 8024
+
+logging:
+  file:
+    name: /fusm-logs/moodle.log
+
+spring:
+  profiles:
+    active: prod
+
+ms-moodle:
+  path: /api/v1/moodle
+

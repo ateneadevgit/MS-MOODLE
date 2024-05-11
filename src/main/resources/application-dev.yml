@@ -1,0 +1,7 @@
+broker-routes:
+  domain: localhost
+
+ms-settings:
+  port: 8010
+  path: /api/v1/settings
+  complete-path: http://${broker-routes.domain}:${ms-settings.port}

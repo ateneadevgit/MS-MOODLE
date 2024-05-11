@@ -1,0 +1,4 @@
+ms-settings:
+  port: 8010
+  path: /api/v1/settings
+  complete-path: http://settings:${ms-settings.port}
